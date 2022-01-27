@@ -16,6 +16,8 @@ SQLAlchemy = "==1.4.29"
 Werkzeug = "==2.0.2"
 flask-wtf = "*"
 flask-migrate = "*"
+flask-login = "*"
+email-validator = "*"
 
 [dev-packages]
 
