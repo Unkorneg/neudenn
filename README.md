@@ -2,6 +2,8 @@
 `export FLASK_ENV=development`
 `flask run`
 
+Create migration repository
+`flask db init`
 
 routes :
 
