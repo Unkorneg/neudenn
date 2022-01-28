@@ -42,7 +42,7 @@
             {{ current_user.username }}
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Mon profil</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('user', username=current_user.username) }}">Mon profil</a></li>
             <li><a class="dropdown-item" href="{{ url_for('logout') }}">Se deconnecter</a></li>
           </ul>
         </li>
